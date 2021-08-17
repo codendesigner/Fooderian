@@ -1,0 +1,316 @@
+h2 {
+    margin-bottom: 30px;
+}
+
+section .inner {
+    padding: 30px 0 30px;
+}
+
+section:first-child {
+    margin-top: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+section.intro {
+    background: url(image/intro.jpg);
+    background-size: cover;
+}
+
+section.status {
+    background: #8e9289cf;
+    color: #fff;
+}
+
+.intro a {
+    background: #FFF;
+    border: 3px solid #FFF;
+    color: #000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.intro a i {
+    margin-left: 10px;
+}
+
+.intro a:first-child,
+.fresh-food a,
+.ingredients a,
+.products .content a,
+.special-offer .content a {
+    background: #81B441;
+    border: 3px solid #81B441;
+    color: #fff;
+    padding: 10px 15px;
+    margin-right: 30px;
+    margin-top: 30px !important;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.intro a:hover,
+.fresh-food a:hover,
+.ingredients a:hover,
+.products .content a:hover,
+.special-offer .content a:hover {
+    border: 3px solid #81B441 !important;
+    background: transparent;
+    color: #81B441;
+}
+
+.intro .btn,
+.fresh-food .btn,
+.ingredients .btn,
+.products .content .btn {
+    padding: 30px 0;
+}
+
+.fresh-food .col-md-5,
+.ingredients .col-md-5 {
+    display: flex;
+    align-items: center;
+}
+
+.ingredients ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredients i {
+    color: #81B441;
+    margin-right: 10px;
+    font-size: 19px;
+}
+
+section.service {
+    background: url(image/service.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.service .content {
+    background: #eeeeee;
+    padding: 20px 15px;
+    min-height: 236px;
+    color: #000;
+}
+
+.service .content i {
+    font-size: 41px;
+    padding: 0 0 10px;
+    color: #eeeeee
+}
+
+
+/********** Products Section ***********/
+
+.products img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.products .content {
+    padding: 10px 0;
+}
+
+.products .content p {
+    font-weight: 500;
+}
+
+.products .content .price {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.products .content h4 {
+    color: #81B441;
+}
+
+.products .content h4 del {
+    color: #999;
+}
+
+
+/* .products .content a {
+    border-radius: 0;
+    background: #e0ac78;
+    border: 3px solid #e0ac78;
+} */
+
+
+/* 
+.products .content a:hover {
+    border: 3px solid #e0ac78 !important;
+    color: #e0ac78;
+} */
+
+.chef-team {
+    background: url(image/chef5.jpg);
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+}
+
+.chef-team .content {
+    margin-top: 15px;
+}
+
+section.special-offer {
+    background: #fff;
+}
+
+.special-offer .content {
+    background: #eeeeee;
+    padding: 20px 15px;
+    min-height: 236px;
+    border-radius: 10px;
+}
+
+.special-offer .content i {
+    font-size: 48px;
+    color: #a07f7b;
+    padding: 0 0 20px;
+}
+
+.special-offer .content p {
+    padding: 15px 0 0;
+}
+
+.special-offer .content h3 {
+    font-size: 36px;
+}
+
+.special-offer .content a {
+    margin-right: 0;
+}
+
+
+/* .special-offer .content a {
+    background: #a03d32;
+    border: 3px solid #a03d32;
+    margin: 0;
+    padding: 5px 25px
+}
+
+.special-offer .content a:hover {
+    border: 3px solid #a03d32 !important;
+    background: transparent;
+    color: #a03d32;
+} */
+
+.special-offer .content .button {
+    padding: 20px 0 16px;
+}
+
+.testimonial .inner {
+    background: #8e9289cf;
+}
+
+.testimonial .content {
+    background: #fff;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.testimonial .content i {
+    font-size: 50px;
+    padding: 20px;
+    color: brown;
+}
+
+.testimonial .content p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+/* section.about {
+    background: #444444;
+    color: #fff;
+} */
+
+section.subscribe {
+    background: #fff;
+    color: #000;
+}
+
+section.subscribe input {
+    height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    background: transparent;
+    border: 3px solid #e5e5e5;
+    color: #fff;
+    font-weight: 700;
+}
+
+section.subscribe button {
+    background: #81B441;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 0;
+    font-weight: 500;
+}
+
+section.subscribe button:hover {
+    background: transparent;
+    color: #81B441;
+    border: 3px solid #81B441 !important;
+    ;
+}
+
+
+/* 
+.btn-primary:hover {
+    background-color: #81B441;
+    border-color: #81B441;
+}
+
+section.subscribe .btn {
+    background-color: transparent;
+    color: #81B441;
+} */
+
+
+/********* Footer Area ********/
+
+footer {
+    background: #81B441;
+    padding: 30px 10px;
+}
+
+footer .link a {
+    color: #fff;
+    padding: 0 30px 0 0;
+    font-size: 18px;
+}
+
+.footer-social a {
+    font-size: 25px;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer-social {
+    margin-top: 15px;
+}
+
+.copy-right {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 12px;
+}
